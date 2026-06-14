@@ -42,7 +42,7 @@ This repo is a self-contained, single-plugin marketplace. Add it, then install t
 
 ```bash
 # 1. Register this repo as a marketplace
-claude plugin marketplace add <your-username>/my-freelancer-plugin
+claude plugin marketplace add jedddi/freelancer-toolkit
 
 # 2. Install the plugin from it
 claude plugin install freelancer-toolkit@jed-quimno-plugins
@@ -51,8 +51,8 @@ claude plugin install freelancer-toolkit@jed-quimno-plugins
 **From a local clone:**
 
 ```bash
-git clone <your-repo-url> my-freelancer-plugin
-claude plugin marketplace add ./my-freelancer-plugin
+git clone https://github.com/jedddi/freelancer-toolkit.git
+claude plugin marketplace add ./freelancer-toolkit
 claude plugin install freelancer-toolkit@jed-quimno-plugins
 ```
 
