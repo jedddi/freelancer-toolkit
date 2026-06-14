@@ -1,0 +1,5 @@
+# Auto-detect text files and normalize them to LF in the repository.
+* text=auto
+
+# Shell scripts must always use LF — CRLF breaks the hooks on macOS/Linux.
+*.sh text eol=lf

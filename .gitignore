@@ -1,0 +1,17 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Secrets — never commit tokens or local env
+.env
+.env.*
+*.local
+
+# Runtime-generated output (created in the working dir when the plugin's commands run)
+client-briefs/
+content/
+reports/
+competitor-analysis/

@@ -1,0 +1,23 @@
+{
+  "name": "jed-quimno-plugins",
+  "owner": {
+    "name": "Jed Quimno",
+    "email": "jedquimno7@gmail.com"
+  },
+  "metadata": {
+    "description": "Plugins by Jed Quimno",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "freelancer-toolkit",
+      "source": ".",
+      "description": "A freelancer's toolkit for client onboarding, content creation, and project management",
+      "version": "1.0.0",
+      "author": {
+        "name": "Jed Quimno",
+        "email": "jedquimno7@gmail.com"
+      }
+    }
+  ]
+}
